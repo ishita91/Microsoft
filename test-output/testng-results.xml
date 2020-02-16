@@ -1,29 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="52" started-at="2020-02-16T01:08:44 EST" finished-at="2020-02-16T01:08:44 EST">
+  <suite name="Default suite" duration-ms="6497" started-at="2020-02-16T01:52:42 EST" finished-at="2020-02-16T01:52:49 EST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="52" started-at="2020-02-16T01:08:44 EST" finished-at="2020-02-16T01:08:44 EST">
-      <class name="com.qa.tests.DemoTest">
-        <test-method status="PASS" signature="div()[pri:0, instance:com.qa.tests.DemoTest@7791a895]" name="div" duration-ms="17" started-at="2020-02-16T01:08:44 EST" finished-at="2020-02-16T01:08:44 EST">
+    <test name="Default test" duration-ms="6497" started-at="2020-02-16T01:52:42 EST" finished-at="2020-02-16T01:52:49 EST">
+      <class name="com.qa.tests.DemoLaunchBrowser">
+        <test-method status="PASS" signature="fun()[pri:0, instance:com.qa.tests.DemoLaunchBrowser@67b92f0a]" name="fun" duration-ms="6420" started-at="2020-02-16T01:52:42 EST" finished-at="2020-02-16T01:52:49 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- div -->
-        <test-method status="PASS" signature="mul()[pri:0, instance:com.qa.tests.DemoTest@7791a895]" name="mul" duration-ms="1" started-at="2020-02-16T01:08:44 EST" finished-at="2020-02-16T01:08:44 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mul -->
-        <test-method status="PASS" signature="sub()[pri:0, instance:com.qa.tests.DemoTest@7791a895]" name="sub" duration-ms="0" started-at="2020-02-16T01:08:44 EST" finished-at="2020-02-16T01:08:44 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sub -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:com.qa.tests.DemoTest@7791a895]" name="sum" duration-ms="1" started-at="2020-02-16T01:08:44 EST" finished-at="2020-02-16T01:08:44 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sum -->
-      </class> <!-- com.qa.tests.DemoTest -->
+        </test-method> <!-- fun -->
+      </class> <!-- com.qa.tests.DemoLaunchBrowser -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
