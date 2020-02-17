@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\Sauravp\AppData\Local\Temp\testng-eclipse-1679908697\testng-customsuite.xml</span>
+                    <span>C:\Users\Sauravp\AppData\Local\Temp\testng-eclipse--1108500752\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,6 +103,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.tests.DemoTest" hash-for-method="div">div</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.tests.DemoLaunchBrowser" hash-for-method="fun">fun</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -132,6 +137,21 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.tests.DemoLaunchBrowser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fun">
+                  </a> <!-- fun -->
+                  <span class="method-name">fun</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -171,7 +191,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Sauravp\AppData\Local\Temp\testng-eclipse-1679908697\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Sauravp\AppData\Local\Temp\testng-eclipse--1108500752\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -181,6 +201,7 @@
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.qa.tests.DemoTest&quot;/&gt;
+      &lt;class name=&quot;com.qa.tests.DemoLaunchBrowser&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -194,7 +215,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">Default test (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -220,15 +241,15 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'div')
-data.setCell(0, 2, 'com.qa.tests.DemoTest')
-data.setCell(0, 3, 17);
+data.setCell(0, 1, 'fun')
+data.setCell(0, 2, 'com.qa.tests.DemoLaunchBrowser')
+data.setCell(0, 3, 5697);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'mul')
+data.setCell(1, 1, 'div')
 data.setCell(1, 2, 'com.qa.tests.DemoTest')
-data.setCell(1, 3, 1);
+data.setCell(1, 3, 12);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'sum')
 data.setCell(2, 2, 'com.qa.tests.DemoTest')
@@ -236,12 +257,16 @@ data.setCell(2, 3, 1);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'sub')
 data.setCell(3, 2, 'com.qa.tests.DemoTest')
-data.setCell(3, 3, 0);
+data.setCell(3, 3, 1);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'mul')
+data.setCell(4, 2, 'com.qa.tests.DemoTest')
+data.setCell(4, 3, 1);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 19 ms</span>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -274,15 +299,22 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">mul</span>
-                <span class="method-start">19 ms</span>
+                <span class="method-start">15 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">sub</span>
-                <span class="method-start">21 ms</span>
+                <span class="method-start">17 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">sum</span>
-                <span class="method-start">22 ms</span>
+                <span class="method-start">19 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.tests.DemoLaunchBrowser</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">fun</span>
+                <span class="method-start">23 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
