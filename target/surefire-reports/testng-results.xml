@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="39" started-at="2020-02-16T06:09:04Z" finished-at="2020-02-16T06:09:04Z">
+  <suite name="Surefire suite" duration-ms="38" started-at="2020-02-17T00:52:20Z" finished-at="2020-02-17T00:52:20Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="39" started-at="2020-02-16T06:09:04Z" finished-at="2020-02-16T06:09:04Z">
+    <test name="Surefire test" duration-ms="38" started-at="2020-02-17T00:52:20Z" finished-at="2020-02-17T00:52:20Z">
       <class name="com.qa.tests.DemoTest">
-        <test-method status="PASS" signature="div()[pri:0, instance:com.qa.tests.DemoTest@506e6d5e]" name="div" duration-ms="24" started-at="2020-02-16T01:09:04Z" finished-at="2020-02-16T01:09:04Z">
+        <test-method status="PASS" signature="div()[pri:0, instance:com.qa.tests.DemoTest@506e6d5e]" name="div" duration-ms="23" started-at="2020-02-16T19:52:20Z" finished-at="2020-02-16T19:52:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- div -->
-        <test-method status="PASS" signature="mul()[pri:0, instance:com.qa.tests.DemoTest@506e6d5e]" name="mul" duration-ms="0" started-at="2020-02-16T01:09:04Z" finished-at="2020-02-16T01:09:04Z">
+        <test-method status="PASS" signature="mul()[pri:0, instance:com.qa.tests.DemoTest@506e6d5e]" name="mul" duration-ms="0" started-at="2020-02-16T19:52:20Z" finished-at="2020-02-16T19:52:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mul -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:com.qa.tests.DemoTest@506e6d5e]" name="sum" duration-ms="0" started-at="2020-02-16T01:09:04Z" finished-at="2020-02-16T01:09:04Z">
+        <test-method status="PASS" signature="sum()[pri:0, instance:com.qa.tests.DemoTest@506e6d5e]" name="sum" duration-ms="1" started-at="2020-02-16T19:52:20Z" finished-at="2020-02-16T19:52:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sub()[pri:0, instance:com.qa.tests.DemoTest@506e6d5e]" name="sub" duration-ms="0" started-at="2020-02-16T01:09:04Z" finished-at="2020-02-16T01:09:04Z">
+        <test-method status="PASS" signature="sub()[pri:0, instance:com.qa.tests.DemoTest@506e6d5e]" name="sub" duration-ms="0" started-at="2020-02-16T19:52:20Z" finished-at="2020-02-16T19:52:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sub -->
