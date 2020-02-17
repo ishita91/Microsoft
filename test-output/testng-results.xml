@@ -1,35 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5759" started-at="2020-02-16T19:46:22 EST" finished-at="2020-02-16T19:46:28 EST">
+  <suite name="Suite" duration-ms="5571" started-at="2020-02-17T12:59:27 EST" finished-at="2020-02-17T12:59:33 EST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5759" started-at="2020-02-16T19:46:22 EST" finished-at="2020-02-16T19:46:28 EST">
+    <test name="Test" duration-ms="5571" started-at="2020-02-17T12:59:27 EST" finished-at="2020-02-17T12:59:33 EST">
       <class name="com.qa.tests.DemoTest">
-        <test-method status="PASS" signature="div()[pri:0, instance:com.qa.tests.DemoTest@2b9627bc]" name="div" duration-ms="12" started-at="2020-02-16T19:46:22 EST" finished-at="2020-02-16T19:46:22 EST">
+        <test-method status="PASS" signature="div()[pri:0, instance:com.qa.tests.DemoTest@4f970963]" name="div" duration-ms="3" started-at="2020-02-17T12:59:27 EST" finished-at="2020-02-17T12:59:27 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- div -->
-        <test-method status="PASS" signature="mul()[pri:0, instance:com.qa.tests.DemoTest@2b9627bc]" name="mul" duration-ms="1" started-at="2020-02-16T19:46:22 EST" finished-at="2020-02-16T19:46:22 EST">
+        <test-method status="PASS" signature="mul()[pri:0, instance:com.qa.tests.DemoTest@4f970963]" name="mul" duration-ms="0" started-at="2020-02-17T12:59:27 EST" finished-at="2020-02-17T12:59:27 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mul -->
-        <test-method status="PASS" signature="sub()[pri:0, instance:com.qa.tests.DemoTest@2b9627bc]" name="sub" duration-ms="1" started-at="2020-02-16T19:46:22 EST" finished-at="2020-02-16T19:46:22 EST">
+        <test-method status="PASS" signature="sub()[pri:0, instance:com.qa.tests.DemoTest@4f970963]" name="sub" duration-ms="1" started-at="2020-02-17T12:59:27 EST" finished-at="2020-02-17T12:59:27 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sub -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:com.qa.tests.DemoTest@2b9627bc]" name="sum" duration-ms="1" started-at="2020-02-16T19:46:22 EST" finished-at="2020-02-16T19:46:22 EST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:com.qa.tests.DemoTest@4f970963]" name="sum" duration-ms="1" started-at="2020-02-17T12:59:27 EST" finished-at="2020-02-17T12:59:27 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
       </class> <!-- com.qa.tests.DemoTest -->
+      <class name="com.qa.tests.TestTrigger">
+        <test-method status="PASS" signature="display()[pri:0, instance:com.qa.tests.TestTrigger@65e2dbf3]" name="display" duration-ms="14" started-at="2020-02-17T12:59:27 EST" finished-at="2020-02-17T12:59:27 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display -->
+      </class> <!-- com.qa.tests.TestTrigger -->
       <class name="com.qa.tests.DemoLaunchBrowser">
-        <test-method status="PASS" signature="fun()[pri:0, instance:com.qa.tests.DemoLaunchBrowser@65e2dbf3]" name="fun" duration-ms="5697" started-at="2020-02-16T19:46:22 EST" finished-at="2020-02-16T19:46:28 EST">
+        <test-method status="PASS" signature="fun()[pri:0, instance:com.qa.tests.DemoLaunchBrowser@61f8bee4]" name="fun" duration-ms="5506" started-at="2020-02-17T12:59:27 EST" finished-at="2020-02-17T12:59:33 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fun -->
       </class> <!-- com.qa.tests.DemoLaunchBrowser -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
